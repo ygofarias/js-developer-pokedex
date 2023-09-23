@@ -5,6 +5,53 @@
     padding: 0;
     list-style: none;
 }
+/* Habilidade Torrente (Movimentos de água) - Azul */
+.habilidade-torrente {
+    color: blue; /* Cor do texto */
+    background-color: lightblue; /* Cor de fundo */
+}
+
+/* Habilidade Brasas (Movimentos de fogo) - Vermelho */
+.habilidade-brasas {
+    color: red; /* Cor do texto */
+    background-color: orange; /* Cor de fundo */
+}
+
+/* Habilidade Espírito Vital (Evitar sono) - Verde */
+.habilidade-espirito-vital {
+    color: green; /* Cor do texto */
+    background-color: lightgreen; /* Cor de fundo */
+}
+
+/* Habilidade Clorofila (Aumenta a velocidade) - Amarelo */
+.habilidade-clorofila {
+    color: yellow; /* Cor do texto */
+    background-color: gold; /* Cor de fundo */
+}
+
+/* Habilidade Levitação (Imune a movimentos terrestres) - Roxo */
+.habilidade-levitacao {
+    color: purple; /* Cor do texto */
+    background-color: lavender; /* Cor de fundo */
+}
+
+/* Habilidade Absorver Água (Cura com movimentos de água) - Azul Claro */
+.habilidade-absorver-agua {
+    color: #00a2e8; /* Cor do texto */
+    background-color: #b5e61d; /* Cor de fundo */
+}
+
+/* Habilidade Coragem (Aumenta poder dos movimentos soco) - Vermelho Escuro */
+.habilidade-coragem {
+    color: darkred; /* Cor do texto */
+    background-color: #ffcc00; /* Cor de fundo */
+}
+
+/* Habilidade Filtro (Reduz dano de movimentos supereficazes) - Cinza */
+.habilidade-filtro {
+    color: gray; /* Cor do texto */
+    background-color: #999; /* Cor de fundo */
+}
 
 .normal {
     background-color: #a6a877;
@@ -122,9 +169,29 @@
     text-align: center;
 }
 
+.pokemon .detail .habilidades .habilidade{
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+}
+
+.pokemon .detailsPokemon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.625rem;
 }
 
 .pagination {
